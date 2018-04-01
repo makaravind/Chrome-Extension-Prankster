@@ -12,5 +12,9 @@ extension installation. From then on, The extension will take care of annoying p
 - The extension will be installed
 - To check, Just visit any web page and click or check out images ;)
 
+## Details
+- Find more detailed explanation in this clip 
+    https://youtu.be/eBwzvKbMb-8
+
 ## Contribution
 - This is of course has a lot of room of customization. I'm looking forward for your creative ways to annoy! Pull request your versions!
