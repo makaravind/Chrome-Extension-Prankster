@@ -1,0 +1,169 @@
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  /*background-color: rgb(0,0,0);  Fallback color */
+  /*background-color: rgba(0,0,0,0.4);  Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #FBC02D;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 4px solid #fff;
+  width: 80%; /* Could be more or less, depending on screen size */
+  border-radius: 25px;
+  /* color: #fff; */
+  height: 100px;
+  box-shadow: 10px 10px;
+}
+
+.text {
+  font-size: 3em;
+  text-align: center
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+div.container div {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  right: 0;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 38px;
+  border: 3px solid #ccc;
+  color: #ccc;
+  padding: 10px 10px 8px;
+  border-radius: 50%;
+  margin: 100px auto;
+  font-size: 24px;
+  font-family: "comic sans ms";
+  font-weight: bold;
+	
+  transition: color .25s linear;
+  transition: border-color .25s linear;
+  transform: rotate(0deg);
+  animation: jump 0.5s infinite alternate;
+	
+  -o-transition: color .25s linear;
+  -o-transition: border-color .25s linear;
+  -o-transform: rotate(0deg);
+  -o-animation: jump 0.5s infinite alternate;
+	
+  -ms-transition: color .25s linear;
+  -ms-transition: border-color .25s linear;
+  -ms-transform: rotate(0deg);
+  -ms-animation: jump 0.5s infinite alternate;
+	
+  -moz-transition: color .25s linear;
+  -moz-transition: border-color .25s linear;
+  -moz-transform: rotate(0deg);
+  -moz-animation: jump 0.5s infinite alternate;
+	
+  -webkit-transition: color .25s linear;
+  -webkit-transition: border-color .25s linear;
+  -webkit-transform: rotate(0deg);
+  -webkit-animation: jump 0.5s infinite alternate;
+}
+
+
+div.container div.one {
+    animation-delay: 0s;
+    -o-animation-delay: 0s;
+    -ms-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+}
+
+@keyframes jump {
+  0% {
+		top: -40px;
+        -moz-transform: scale(1,0.7) rotate(90deg);
+  }
+  30% {-moz-transform: scale(1,1) rotate(90deg);}
+  100% {top: -70px;}
+}
+
+@-o-keyframes jump {
+  0% {
+		top: -40px;
+        -moz-transform: scale(1,0.7) rotate(90deg);
+  }
+  30% {-moz-transform: scale(1,1) rotate(90deg);}
+  100% {top: -70px;}
+}
+
+@-ms-keyframes jump {
+  0% {
+		top: -40px;
+        -moz-transform: scale(1,0.7) rotate(90deg);
+  }
+  30% {-moz-transform: scale(1,1) rotate(90deg);}
+  100% {top: -70px;}
+}
+
+@-moz-keyframes jump {
+  0% {
+		top: -40px;
+        -moz-transform: scale(1,0.7) rotate(90deg);
+  }
+  30% {-moz-transform: scale(1,1) rotate(90deg);}
+  100% {top: -70px;}
+}
+
+@-webkit-keyframes jump {
+  0% {
+      top: -40px;
+      -webkit-transform: scale(1,0.7) rotate(90deg);
+  }
+  30% {-webkit-transform: scale(1,1) rotate(90deg);}
+  100% {top: -70px;}
+}
+
+@keyframes shake {
+  0% {padding: 8px 0 0;}
+  100% {padding: 0 0 8px; line-height: 14px;}
+}
+
+@-o-keyframes shake {
+  0% {padding: 8px 0 0;}
+  100% {padding: 0 0 8px; line-height: 14px;}
+}
+
+@-ms-keyframes shake {
+  0% {padding: 8px 0 0;}
+  100% {padding: 0 0 8px; line-height: 14px;}
+}
+
+@-moz-keyframes shake {
+  0% {padding: 8px 0 0;}
+  100% {padding: 0 0 8px; line-height: 14px;}
+}
+
+@-webkit-keyframes shake {
+  0% {padding: 8px 0 0;}
+  100% {padding: 0 0 8px; line-height: 14px;}
+}

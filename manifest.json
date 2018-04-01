@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  
+  "name": "April Fool Pransker",
+  "description": "This extension will go crazy on you",
+  "version": "1.0",
+
+  "content_scripts": [   
+  { "run_at" :"document_end",
+  "matches": ["https://*/*", "http://*/*"],
+  "js": ["jquery.min.js", "script.js"],
+  "css":["mycss.css"]
+  } ],
+  
+  "web_accessible_resources":["img/*.png"]
+  }
